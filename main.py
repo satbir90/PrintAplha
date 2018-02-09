@@ -1,9 +1,9 @@
 import sys
-from A import printA
+from alphabets import A
 
 def checkAlphabet(alpha, size):
     if (alpha.upper() == 'A'):
-        printA(size)
+        A.printA(size)
 
 def main():
     # for arg in sys.argv[1:]:
