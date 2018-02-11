@@ -1,14 +1,18 @@
 import sys
 from alphabets import A
+from alphabets import B
 
 def checkAlphabet(alpha, size):
     if (alpha.upper() == 'A'):
         A.printA(size)
+        pass
+    elif (alpha.upper() == 'B'):
+        B.printB(size)
+        pass
 
 def main():
     # for arg in sys.argv[1:]:
     #     print(arg)
-    print(len(sys.argv))
     alphabet = ''
     size = 0
     if(len(sys.argv) > 2):
