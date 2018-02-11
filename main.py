@@ -1,6 +1,7 @@
 import sys
 from alphabets import A
 from alphabets import B
+from alphabets import C
 
 def checkAlphabet(alpha, size):
     if (alpha.upper() == 'A'):
@@ -8,6 +9,9 @@ def checkAlphabet(alpha, size):
         pass
     elif (alpha.upper() == 'B'):
         B.printB(size)
+        pass
+    elif (alpha.upper() == 'C'):
+        C.printC(size)
         pass
 
 def main():
